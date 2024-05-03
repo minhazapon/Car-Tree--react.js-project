@@ -3,7 +3,36 @@ import MovingText from 'react-moving-text'
 import { NavLink } from 'react-router-dom';
 
 
+
+// ---------------theme
+import { useEffect, useState } from 'react'
+// -----------------------------------------
+
+
 const Nav = () => {
+
+
+  // ------------------------------------theme
+  const [theme, setTheme] = useState('light')
+  
+  // update state on toggle
+  const handleToggle = e => {
+    if (e.target.checked) {
+      setTheme('synthwave')
+    } else {
+      setTheme('light')
+    }
+  }
+
+  // set theme state in localStorage on mount & also update localStorage on state change
+  useEffect(() => {
+    localStorage.setItem('theme', theme)
+    const localTheme = localStorage.getItem('theme')
+
+    // add custom data-theme attribute
+    document.querySelector('html').setAttribute('data-theme', localTheme)
+  }, [theme])
+// --------------------------------------
 
     const links = <>
     
@@ -12,9 +41,6 @@ const Nav = () => {
          <li><NavLink to="/service" >service</NavLink></li>
          <li><NavLink to="/blog" >Blog</NavLink></li>
          <li><NavLink to="/contact" >Contact</NavLink></li>
-    
-    
-    
     
     </>
 
@@ -27,7 +53,7 @@ const Nav = () => {
             <div>
 
 
-                             <div className=" -ml-5 -mt-10 navbar bg-base-100">
+                    <div className=" shadow-xl  navbar bg-base-100">
                    <div className="navbar-start">
                      <div className="dropdown">
                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +64,7 @@ const Nav = () => {
                        </ul>
                      </div>
                      <div className=" flex items-center">
-                      <img className=" h-[150px] " src="https://img.freepik.com/premium-vector/car-service-icon_602006-1928.jpg?w=740" alt="" />
+                      <img className=" h-[50px] " src="https://i.ibb.co/3YwcnDn/1714709739738-01.jpg" alt="" />
                       
                           <MovingText
                           type="spin"
@@ -65,12 +91,29 @@ const Nav = () => {
                         {links}
                      </ul>
                    </div>
-                   <div className="navbar-end">
-                     <a className="btn bg-blue-900  text-white">Sign In</a>
+                   <div className=" flex items-center gap-5 navbar-end">
+                    
+                    {/* ---------------------theme */}
+                    <label htmlFor="Toggle1" className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
+                    
+                    <span className="relative">
+                      <input onChange={handleToggle} id="Toggle1"  type="checkbox" className="hidden peer" />
+                      <div className="w-10 h-6 rounded-full shadow-inner bg-gray-400 peer-checked:bg-violet-400"></div>
+                      <div className="absolute inset-y-0 left-0 w-4 h-4 m-1 rounded-full shadow peer-checked:right-0 peer-checked:left-auto bg-gray-800"></div>
+                    </span>
+                    
+                    </label>
+                    {/* ------------------------------------                      */}
+
+                     
+                        <a href="#_" className=" btn relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group">
+                    <span className="w-48 h-48 rounded rotate-[-40deg] bg-blue-900  absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                    <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">Sign In</span>
+                    </a>
+
+                  
                    </div>
                  </div>
-                 
-
             </div>
             
         </div>
