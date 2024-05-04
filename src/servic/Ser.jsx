@@ -77,14 +77,61 @@ const Ser = () => {
 
               </div>
 
+            {/* ---------------------------------------------- */}
+            <h1 className=" mt-3 text-5xl font-bold text-blue-900">3 Simple Steps to Process</h1>
+
+            <div className=" flex items-center gap-14 mt-5">
+
+          
+            <div className=" ">
+              <h1 className="   bg-blue-900 text-white h-[70px] w-[70px] text-4xl font-bold p-3 rounded-full">01</h1>
+              <p className=" text-xl font-bold">Step One</p>
+              <p className=" text-xl text-slate-400">It uses a  <br></br>dictionary<br></br> of over 200 .</p>
+
+            </div>
+
+            <div className=" ">
+              <h1 className="   bg-blue-900 text-white h-[70px] w-[70px] text-4xl font-bold p-3 rounded-full">02</h1>
+              <p className=" text-xl font-bold">Step Two</p>
+              <p className=" text-xl text-slate-400">It uses a  <br></br>dictionary<br></br> of over 200 .</p>
+
+            </div>
+
+            <div className=" ">
+              <h1 className="   bg-blue-900 text-white h-[70px] w-[70px] text-4xl font-bold p-3 rounded-full">03</h1>
+              <p className=" text-xl font-bold">Step Three</p>
+              <p className=" text-xl text-slate-400">It uses a  <br></br>dictionary<br></br> of over 200 .</p>
+
+            </div>
+
+
+            </div>
+
+            <div>
+            </div>
+
+
+           
+
+
+
+
             </div>
 
 
 
 
+{/* last file of video ------------------------------------------------ */}
+         
+         <div>
+
+         <video className=" mt-5 h-full w-full rounded-lg" controls>
+              <source src="https://assets.mixkit.co/videos/preview/mixkit-dashboard-of-a-car-72-large.mp4" type="video/mp4" />
+            
+            </video>
 
 
-
+         </div>
 
 
         </div>
