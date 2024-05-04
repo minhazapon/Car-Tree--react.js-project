@@ -118,7 +118,7 @@ const Ser = () => {
 
            <div className=" flex-col md:flex-row mt-10 mb-10">
 
-              <div className=" bg-slate-300 p-5 rounded-xl">
+              <div className=" bg-slate-300 p-2 w-[400px] rounded-xl">
                 
                 <h1 className=" text-5xl font-bold">Services</h1>
 
@@ -197,7 +197,7 @@ const Ser = () => {
 
             <div className=" mt-5 ">
              <h1 className=" text-5xl font-bold text-blue-900">Price $250.00</h1>
-             <button className=" mt-3 btn text-white w-[300px] bg-blue-900">Proceed Checkout</button>
+             <button className=" mt-3 btn text-white w-[400px] bg-blue-900">Proceed Checkout</button>
             </div>
 
 
