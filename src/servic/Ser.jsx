@@ -14,9 +14,11 @@ const Ser = () => {
             </div>
             {/* ----------------------------------------------------------- */}
 
+           
+            <div className=" flex-col md:flex-row flex justify-center gap-20 ">
 
 
-            <div className=" mt-10 mb-10">
+            <div className=" flex-col md:flex-row mt-10 mb-10">
 
 
             <div>
@@ -107,16 +109,106 @@ const Ser = () => {
 
             </div>
 
-            <div>
+
+            </div>
+
+
+ {/* ---------------------------------------------------------*/}
+
+
+           <div className=" flex-col md:flex-row mt-10 mb-10">
+
+              <div className=" bg-slate-300 p-5 rounded-xl">
+                
+                <h1 className=" text-5xl font-bold">Services</h1>
+
+                <p className=" mt-3 rounded-xl text-white flex items-center gap-10 p-5 bg-red-600 w-[300px]">
+                Full Car Repair
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                </p>
+             
+                <p className=" rounded-xl text-white flex items-center gap-10 p-5 mt-5  bg-blue-900 w-[300px]">
+                Engine Repair
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                </p>
+                <p className=" rounded-xl text-white flex items-center gap-10 p-5 mt-5  bg-blue-900 w-[300px]">
+                Automatic Services
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                </p>
+                <p className=" rounded-xl text-white flex items-center gap-10 p-5 mt-5  bg-blue-900 w-[300px]">
+                Engine Oil Change
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                </p>
+                <p className=" rounded-xl text-white flex items-center gap-10 p-5 mt-5  bg-blue-900 w-[300px]">
+                Battery Charge
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                </p>
+             
+
+              </div>
+
+             
+             <div className=" bg-blue-900 text-white p-3 rounded-xl mt-10">
+              <h1 className=" text-5xl font-bold" >Download</h1>
+
+              <h1 className=" flex items-center gap-5  text-xl mt-2">Our Brochure
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+              </h1>
+              <p>
+              Download
+              </p>
+
+              <h1 className=" flex items-center gap-5  text-xl mt-2">Company Details
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+              </h1>
+              <p>
+              Download
+              </p>
+             </div>
+
+            
+            <div className=" bg-blue-900 p-3 rounded-xl text-white mt-5">
+             
+             <img className=" h-[100px]" src="https://i.ibb.co/LzgvzmN/forest.png" alt="" />
+
+             <p className="  mt-3 text-5xl font-bold">Car Tree</p>
+             <p className=" mt-3 text-3xl">Need Help? <br></br> We Are Here
+              To Help You</p>
+
+             <p className=" font-bold text-xl text-blue-900 bg-white p-5 mt-2 rounded-xl">Car Doctor Special <br></br> Save up to  <span className=" text-red-600">60% off</span></p>
+
+
             </div>
 
 
-           
-
-
-
-
+            <div className=" mt-5 ">
+             <h1 className=" text-5xl font-bold text-blue-900">Price $250.00</h1>
+             <button className=" mt-3 btn text-white w-[300px] bg-blue-900">Proceed Checkout</button>
             </div>
+
+
+
+           </div>
+
+
+
+
+           </div>
+
 
 
 

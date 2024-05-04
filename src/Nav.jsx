@@ -9,7 +9,11 @@ import { useEffect, useState } from 'react'
 // -----------------------------------------
 
 
+
 const Nav = () => {
+
+
+
 
 
   // ------------------------------------theme
@@ -51,7 +55,7 @@ const Nav = () => {
         <div>
 
             <div>
-
+    
 
                     <div className=" shadow-xl  navbar bg-base-100">
                    <div className="navbar-start">
@@ -115,6 +119,7 @@ const Nav = () => {
                   
                    </div>
                  </div>
+
             </div>
             
         </div>
