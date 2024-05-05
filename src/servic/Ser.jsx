@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Ser = () => {
     return (
-        <div className=" mb-10 mt-10 mr-5 ml-5">
+        <div className=" animate__animated animate__rotateIn animate__repeat-2 mb-10 mt-10 mr-5 ml-5">
 
             <div className=" flex justify-center flex-col md:flex-row border-[6px] border-blue-900 rounded-xl">
 
@@ -119,7 +119,7 @@ const Ser = () => {
 
            <div className=" flex-col md:flex-row mt-10 mb-10">
 
-              <div className=" bg-slate-300 p-2 w-[400px] rounded-xl">
+              <div className=" bg-slate-200 p-2 w-[400px] rounded-xl">
                 
                 <h1 className=" text-5xl font-bold">Services</h1>
 
@@ -190,7 +190,7 @@ const Ser = () => {
              <p className=" mt-3 text-3xl">Need Help? <br></br> We Are Here
               To Help You</p>
 
-             <p className=" font-bold text-xl text-blue-900 bg-white p-5 mt-2 rounded-xl">Car Doctor Special <br></br> Save up to  <span className=" text-red-600">60% off</span></p>
+             <p className=" font-bold text-xl text-blue-900 bg-white p-5 mt-2 rounded-xl">Car Tree Special <br></br> Save up to  <span className=" text-red-600">60% off</span></p>
 
 
             </div>

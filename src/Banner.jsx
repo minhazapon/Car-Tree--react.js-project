@@ -3,7 +3,7 @@
 
 const Banner = () => {
     return (
-        <div className=" ">
+        <div className=" animate__animated animate__rotateIn animate__repeat-2 ">
             <div>
 
             <div className="carousel w-full">
@@ -11,7 +11,7 @@ const Banner = () => {
     <img src="https://i.ibb.co/fp3XMz7/image.png" className="w-full h-[600px]" />
 
   
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 bg-gradient-to-r from-black p-3 ">
+    <div className="  absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 bg-gradient-to-r from-black p-3 ">
 
     <div> 
     <h1 className=" text-white text-7xl font-bold">Affordable <br></br> Price For Car <br></br> Servicing</h1>

@@ -14,6 +14,8 @@ import Ser from './servic/Ser';
 import AddNew from './servic/AddNew';
 import Check from './servic/Check';
 import Contact from './Login/Contact';
+import Blog from './Blog';
+
 
 
 const router = createBrowserRouter([
@@ -49,6 +51,12 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      
+      
      
     ],
   },

@@ -4,7 +4,7 @@
 
 const AddNew = () => {
     return (
-        <div className=" mt-10 mb-10 ml-10 mr-10">
+        <div className="  animate__animated animate__backInRight animate__repeat-2 mt-10 mb-10 ml-10 mr-10">
 
             <div>
 
