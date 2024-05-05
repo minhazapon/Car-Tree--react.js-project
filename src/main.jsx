@@ -11,6 +11,9 @@ import Home from './Home';
 import Login from './Login/Login';
 import SignUp from './Login/SignUp';
 import Ser from './servic/Ser';
+import AddNew from './servic/AddNew';
+import Check from './servic/Check';
+import Contact from './Login/Contact';
 
 
 const router = createBrowserRouter([
@@ -33,6 +36,18 @@ const router = createBrowserRouter([
       {
         path: "/ser",
         element: <Ser></Ser>,
+      },
+      {
+        path: "/new",
+        element: <AddNew></AddNew>,
+      },
+      {
+        path: "/check",
+        element: <Check></Check>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
      
     ],

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -197,8 +198,21 @@ const Ser = () => {
 
             <div className=" mt-5 ">
              <h1 className=" text-5xl font-bold text-blue-900">Price $250.00</h1>
+             <Link to="/check"  >
              <button className=" mt-3 btn text-white w-[400px] bg-blue-900">Proceed Checkout</button>
+             </Link>
             </div>
+            
+
+            <div className=" mt-10">
+             <Link to="/new" >
+             <h1 className=" text-white w-[400px] btn bg-blue-900"> Go for Add New Service
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+             </h1>
+             </Link>   
+             
 
 
 
@@ -206,7 +220,9 @@ const Ser = () => {
 
 
 
+           </div>
 
+          
            </div>
 
 
