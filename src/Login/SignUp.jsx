@@ -1,7 +1,30 @@
 
 
 
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const SignUp = () => {
+    
+	const handleC = e => {
+      
+		e.preventDefault();
+		 
+	
+		 console.log(e.target.name.value)
+		 console.log(e.target.email.value)
+		 console.log(e.target.Photo_Url.value)
+		 console.log(e.target.password.value)
+	
+		 toast("Sign Up successfully Done");
+	
+	   }
+
+
+
+
+
     return (
         <div>
             <div>
@@ -16,7 +39,7 @@ const SignUp = () => {
 		<h1 className="my-3 text-4xl font-bold">Sign Up</h1>
 		<p className="text-sm text-white ">Sign Up to access your account</p>
 	</div>
-	<form action="" className="space-y-12">
+	<form  onSubmit={handleC} className="space-y-12">
 		<div className="space-y-4">
 
             
@@ -67,7 +90,8 @@ const SignUp = () => {
 		</div>
 		<div className="space-y-2">
 			<div>
-		<input className="w-full btn px-8 py-3 font-semibold rounded-md bg-white text-gray-900" type="submit" value="Sign Up" />	
+		<input className="w-full btn px-8 py-3 font-semibold rounded-md bg-white text-gray-900" type="submit" value="Sign Up" />
+		<ToastContainer />	
 			</div>
 			
 		</div>
