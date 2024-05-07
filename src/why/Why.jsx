@@ -2,7 +2,7 @@
 
 const Why = () => {
     return (
-        <div className=" mt-10 mb-10">
+        <div className=" ml-10 mr-10 mt-10 mb-10">
 
             <div>
 

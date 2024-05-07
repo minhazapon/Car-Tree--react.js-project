@@ -20,7 +20,7 @@ const Products = () => {
 
 
     return (
-        <div className=" mb-10 mt-10">
+        <div className=" ml-10 mr-10 mb-10 mt-10">
 
             <div>
 

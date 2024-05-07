@@ -4,7 +4,7 @@
 
 const Team = () => {
     return (
-        <div className=" ml-10 mr-10">
+        <div className=" ml-14 mr-14">
             <div>
 
              <div className=" text-center">

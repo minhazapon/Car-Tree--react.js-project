@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Ser = () => {
     return (
-        <div className=" animate__animated animate__rotateIn animate__repeat-2 mb-10 mt-10 mr-5 ml-5">
+        <div className=" animate__animated animate__rotateIn animate__repeat-2 mb-10 mt-10 ml-10 mr-10">
 
             <div className=" flex justify-center flex-col md:flex-row border-[6px] border-blue-900 rounded-xl">
 
@@ -117,7 +117,7 @@ const Ser = () => {
  {/* ---------------------------------------------------------*/}
 
 
-           <div className=" flex-col md:flex-row mt-10 mb-10">
+           <div className="  mr-10 flex-col md:flex-row mt-10 mb-10">
 
               <div className=" bg-slate-200 p-2 w-[400px] rounded-xl">
                 
@@ -199,14 +199,14 @@ const Ser = () => {
             <div className=" mt-5 ">
              <h1 className=" text-5xl font-bold text-blue-900">Price $250.00</h1>
              <Link to="/check"  >
-             <button className=" mt-3 btn text-white w-[400px] bg-blue-900">Proceed Checkout</button>
+             <button className=" mt-3 btn text-white w-[350px] bg-blue-900">Proceed Checkout</button>
              </Link>
             </div>
             
 
             <div className=" mt-10">
              <Link to="/new" >
-             <h1 className=" text-white w-[400px] btn bg-blue-900"> Go for Add New Service
+             <h1 className=" text-white w-[350px] btn bg-blue-900"> Go for Add New Service
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>

@@ -3,7 +3,7 @@
 
 const Banner = () => {
     return (
-        <div className=" animate__animated animate__rotateIn animate__repeat-2 ">
+        <div className=" ml-5 mr-5 animate__animated animate__rotateIn animate__repeat-2 ">
             <div>
 
             <div className="carousel w-full">

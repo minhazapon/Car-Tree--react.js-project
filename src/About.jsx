@@ -5,14 +5,14 @@
 
 const About = () => {
     return (
-        <div className=" mt-10 mb-10 flex justify-center items-center gap-20 border-[1px]
+        <div className=" ml-3 mr-3 mt-10 mb-10 flex justify-center items-center gap-20 border-[1px]
         
          flex-col md:flex-row
         border-blue-900 p-3 rounded-xl ">
 
             <div>
-             <img className=" h-[360px] w-[350px] rounded-xl" src="https://i.ibb.co/bz72PB0/image.png" alt="" />
-             <img className=" ml-28 -mt-28 h-[300px] w-[300px] rounded-xl border-[6px]  border-blue-900 " src="https://i.ibb.co/d6nZfm1/image.png" alt="" />
+             <img className=" h-[300px] w-[300px] rounded-xl" src="https://i.ibb.co/bz72PB0/image.png" alt="" />
+             <img className=" ml-28 -mt-28 h-[250px] w-[250px] rounded-xl border-[6px]  border-blue-900 " src="https://i.ibb.co/d6nZfm1/image.png" alt="" />
             </div>
 
 
